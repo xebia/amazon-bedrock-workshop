@@ -77,7 +77,7 @@ Once your notebook environment is set up, clone this workshop repository into it
 
 ```sh
 sudo yum install -y unzip
-git clone https://github.com/tcekala-xebia/amazon-bedrock-workshop.git
+git clone https://github.com/xebia/amazon-bedrock-workshop.git
 cd amazon-bedrock-workshop
 ```
 
