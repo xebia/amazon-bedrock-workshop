@@ -1,4 +1,4 @@
-# Amazon Bedrock Workshop
+# Amazon Bedrock Workshop v2.0
 
 This hands-on workshop, aimed at developers and solution builders, introduces how to leverage foundation models (FMs) through [Amazon Bedrock](https://aws.amazon.com/bedrock/).
 
