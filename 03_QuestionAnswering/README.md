@@ -30,12 +30,7 @@ RAG combines the use of embeddings to index the corpus of the documents to build
 
 
 As a preparation step for RAG, the documents building up the knowledge base are split in chunks of a fixed size (matching the maximum input size of the selected embedding model), and are then passed to the model to obtain the embedding vector. The embedding together with the original chunk of the document and additional metadata are stored in a vector database. The vector database is optimized to efficiently perform similarity search between vectors.
-
-## Target audience
-Customers with data stores that may be private or frequently changing. RAG approach solves 2 problems, customers having the following challenges can benefit from this lab.
-- Freshness of data: if the data is continously changing and model must only provide latest information.
-- Actuality of knowledge: if there is some domain specific knowledge that model might not have understanding of, and the model must output as per the domain data.
-
+ 
 ## Objective
 
 After this module you should have a good understanding of:
@@ -48,14 +43,4 @@ In this module we will walk you through how to implement the QA pattern with Bed
 Additionally, we have prepared the embeddings to be loaded in the vector database for you. 
 
 Take note you can use Titan Embeddings to obtain the embeddings of the user question, then use those embedding to retrieve the most relevant documents from the vector database, build a prompt concatenating the top 3 documents and invoke the LLM model via Bedrock.
-
-## Setup
-Before running any of the labs in this section ensure you've run the [Bedrock boto3 setup notebook](../00_Intro/bedrock_boto3_setup.ipynb#Prerequisites).
-
-## Notebooks
-
-1. [Q&A with model knowledge and small context](./00_qa_w_bedrock_titan.ipynb)
-
-1. [Q&A with RAG](./01_qa_w_rag_claude.ipynb)
-
-1. [Q&A with RAG and Pinecone](./02_qa_w_rag_claude_pinecone.ipynb)
+ 
