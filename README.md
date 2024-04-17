@@ -185,6 +185,38 @@ Insert any policy name you like and save by clicking Create policy:
 
 </div>
 
+Repeate these steps to add a policy for Amazon OpenSearch Service. The required policy is presented below:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AOSSAccess",
+            "Effect": "Allow",
+            "Action": [  "aoss:*" ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+First click Attach inline policy (like before) and paste the above policy:
+
+<div align="center">
+    
+![imgs/aoss1.png](imgs/aoss1.png "Step by step manual")
+
+</div>
+
+Insert any policy name you like and save by clicking Create policy:
+
+<div align="center">
+    
+![imgs/aoss2.png](imgs/aoss2.png "Step by step manual")
+
+</div>
+
 > ⚠️ **Note:** With Amazon SageMaker, your notebook execution role will typically be *separate* from the user or role that you log in to the AWS Console with. If you'd like to explore the AWS Console for Amazon Bedrock, you'll need to grant permissions to your Console user/role too.
 
 For more information on the fine-grained action and resource permissions in Bedrock, check out the Bedrock Developer Guide.
