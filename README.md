@@ -205,7 +205,7 @@ First click Attach inline policy (like before) and paste the above policy:
 
 <div align="center">
     
-![imgs/aoss1.png](imgs/aoss1.png "Step by step manual")
+![imgs/aoss1a.png](imgs/aoss1a.png "Step by step manual")
 
 </div>
 
