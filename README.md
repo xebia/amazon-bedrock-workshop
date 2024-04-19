@@ -125,7 +125,7 @@ You should see then the list of files on the left hand side of the screen:
 
 <div align="center">
     
-![imgs/term2.png](imgs/term2.png "Step by step manual")
+<img src="imgs/term2.png" alt="image" style="width:500px;height:auto;"> 
 
 </div>
 
@@ -230,6 +230,25 @@ After all the above setup you're ready to explore the lab notebooks! Start with 
 Then open the numbered chapters and explore all the notebooks in every chapter.
 
 **Have fun!**
+
+## Important information
+
+To save money, please shutdown your SageMaker machine every time you finish your work (assuming you want to continue it the next day or even later). Please go to File menu and click Shutdown:
+
+<div align="center">
+    
+<img src="imgs/shutdown1.png" alt="image" style="width:300px;height:auto;">
+
+
+</div>
+
+Then click Shutdown Server (if you wish to come back - then in the SageMaker studio window the machine will be stopped and you will need to click Run again) or Shutdown All (if you do not intend to come back and that's the end of your work):
+
+<div align="center">
+    
+<img src="imgs/shutdown2.png" alt="image" style="width:500px;height:auto;">
+
+</div>
   
 ## After workshop
 
