@@ -117,9 +117,11 @@ Now run the below commands in terminal, one by one:
 
 ```sh
 sudo yum install -y unzip
-git clone https://github.com/xebia/amazon-bedrock-workshop.git
+git clone https://github.com/kkakolpgs/amazon-bedrock-workshop
 cd amazon-bedrock-workshop
+git checkout v2.0
 ```
+INFO: Last command switched to `v2.0` branch. On this branch is current version of the workshop materials.
 
 You should see then the list of files on the left hand side of the screen:
 
