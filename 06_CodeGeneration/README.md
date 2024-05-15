@@ -6,10 +6,8 @@ In this lab, you will learn to use LLMs on Amazon Bedrock for code generation, S
 
 First, we will generate Python code and SQL queries by providing context about a dataset. Next, we will explain code and translate between languages. We will explore these use cases with both the Bedrock API directly and via LangChain integration.
 
-## Audience
+## Use cases
 
-Architects and developers who want to learn how to use Amazon Bedrock LLMs to generate, explain and translate code.
- 
 Some of the business use cases for code generation include:
 
 - Code Translation
