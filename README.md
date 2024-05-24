@@ -21,6 +21,9 @@ Labs include:
 
 ## Getting started
 
+The workshop experiments can be completed in several ways. If you prefer a managed environment that is updated by AWS, complete the instructions in this document. If you 
+prefer a developer friendly experience in your trusted IDE, complete the instructions in [README_INTELLIJ.md](./README_INTELLIJ.md).
+
 ### Create a notebook environment
 
 You can run this workshop in the **us-east-1 (N. Virginia)** region or any other region where Bedrock models are enabled. If you encounter any problems with access to Bedrock models, please visit the **AWS Console -> Bedrock -> Model access** page to verify if every model is enabled. If not, you need to click **Manage model access** and enable the required models. The below description assumes that the necessary models are enabled in us-east-1 region.
